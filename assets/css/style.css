@@ -1,0 +1,204 @@
+
+                /* common selector  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.d-flex{
+    display: flex;
+}
+.roboto{
+    font-family: Roboto, sans-serif;
+}
+.roboto-con{
+    font-family: "Roboto Condensed", sans-serif;
+}
+.sans{
+    font-family: Jost, sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+                    /* main style */
+                    /* nav start  */
+/* top nav-bar code start  */
+.top-nav{
+    width: 80%;
+    margin: 0px auto;
+}
+.contuct-details{
+    align-items: center;
+    flex-basis: 150%;
+}
+.contuct-details a{
+    padding: 5px 5px;
+    color: #848e9f;
+    font-size: 16px;
+    line-height: 24px;
+}
+.icon{
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 350%;
+}
+.icon a{
+    margin-right: 20px;
+}
+/* top nav-bar code end  */
+/* main nav start  */
+.main-nav{
+    width: 80%;
+    margin: 0px auto;
+}
+.nav-main-content{
+    margin-top: 10px;
+}
+.nav-logo{
+    flex-basis: 150%;
+    align-items: center;
+}
+.nav-logo span{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #13c5dd;
+}
+.nav-content{
+    flex-basis: 350%;
+    justify-content: flex-end;
+}
+.nav-content a{
+    margin-right: 5px;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1d2a4d;
+}
+#home-button{
+    color: #13c5dd;
+    border-bottom: 8px solid #13c5dd;
+}
+.nav-content a:hover{
+    transition: .5s;
+    color: #13c5dd;
+    border-bottom: 8px solid #13c5dd;
+}
+/* main nav end  */
+                            /* nav close  */
+                            /* main part start  */
+/* top banner start  */
+.top-banner{
+    height: 511px;
+    background: url(../photo/photo/top-banner.jpg) no-repeat;
+    background-size: cover;
+}
+.top-banner-content{
+    display: inline-block;
+    margin-top: 110px;
+    margin-left: 110px;
+    width: 60%;
+}
+.top-banner-content h2{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    border-bottom: 5px solid #DEE2E6;
+    color: #13c5dd;
+}
+.top-banner-content h1{
+    color: white;
+    font-weight: 700;
+    line-height: 96px;
+    font-size: 70px;
+}
+.top-banner-content a{
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+#find-doctor{
+    color: black;
+    background-color: white;
+}
+.top-banner-content a:hover{
+    color: black;
+    background-color: white;
+}
+/* top banner end  */
+/* about part start  */
+.about-us{
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.about-banner{
+    flex-basis: 130%;
+}
+.about-banner img{
+    border-radius: 8px;
+}
+.about-content{
+    padding: 50px;
+    flex-basis: 200%;
+}
+.about-content h2{
+    display: inline-block;
+    color: #13c5dd;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    border-bottom: 5px solid #DEE2E6;
+}
+.about-content h1{
+    color: #1d2a4d;
+    font-size: 50px;
+    line-height: 67px;
+    font-weight: 700;
+}
+.about-content p{
+    color: #848e9f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+/* medical service  */
+.madical-banner{
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.medical-care{
+    padding: 30px ;
+    width: 15%;
+    border-radius: 50%;
+    background-color: #EFF5F9;
+}
+.medical-care img{
+    margin-left: 10px;
+    margin-left: 25%;
+}
+.medical-care h1{
+    color: #1d2a4d;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 15%;
+}
+.medical-care p{
+    margin-left: 10px;
+    color: #13c5dd;
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20%;
+}
+/* about part end */
+    
