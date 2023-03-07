@@ -7,6 +7,10 @@
 .d-flex{
     display: flex;
 }
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
 .roboto{
     font-family: Roboto, sans-serif;
 }
@@ -24,10 +28,6 @@ a{
                     /* main style */
                     /* nav start  */
 /* top nav-bar code start  */
-.top-nav{
-    width: 80%;
-    margin: 0px auto;
-}
 .contuct-details{
     align-items: center;
     flex-basis: 150%;
@@ -49,8 +49,7 @@ a{
 /* top nav-bar code end  */
 /* main nav start  */
 .main-nav{
-    width: 80%;
-    margin: 0px auto;
+    position: sticky;
 }
 .nav-main-content{
     margin-top: 10px;
@@ -201,4 +200,75 @@ a{
     margin-left: 20%;
 }
 /* about part end */
+/* service section start */
+.all-service-card{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.all-service > p{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: RGB(19, 197, 221);
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 48%;
+    border-bottom: 5px solid #DEE2E6;
+}
+.all-service > h1{
+    font-size: 56px;
+    line-height: 67.2px;
+    font-weight: 700;
+    color: RGB(29, 42, 77);
+    text-align: center;
+}
+
+.service-card{
+    width: 30%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 50px;
+    background-color: #EFF5F9;
+}
+.service-card:hover .arrow{
+    left: 40%;
+    top: 90%;
+    visibility: visible;
+}
+.service-card .icon{
+    justify-content: center;
+    margin-top: 20px;
+}
+.service-card-content h1{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: RGB(29, 42, 77);
+    text-align: center;
+}
+.service-card-content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: RGB(29, 42, 77);
+    text-align: center;
+}
+.arrow{
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    width: 70px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background: #13c5dd;
+    border-radius: 50%;
+    transition: .5s;
+    visibility: hidden;
+}
+/* service section end */
     
